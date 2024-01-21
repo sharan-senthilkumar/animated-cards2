@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;    
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.lexus{
+    background-image: url('lexus_lfa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:20px;
+    width: 950px;
+    height: 500px;
+    border-radius: 80px;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 1);
+    transform: scale(1.0);
+    transition-duration: 300ms;
+
+}
+
+
+.lexus figcaption{
+    background: none;
+    color: white;
+    width: 400px;
+    margin-left: 30px;
+    margin-bottom:150px;
+    padding: 20px;
+}
+
+.lexus:hover{
+    transform: scale(1.1);
+    transition-delay: 20ms;
+
+}
+
+
+.srt{
+    background-image: url('srt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:20px;
+    width: 950px;
+    height: 500px;
+    border-radius: 80px;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 1);
+    transform: scale(1.0);
+    transition-duration: 300ms;
+
+}
+
+.srt:hover{
+    transform: scale(1.1);
+    transition-delay: 20ms;
+
+}
+
+
+.srt figcaption{
+    background: none;
+    color: rgba(0, 0, 0, 0.829);
+    width: 550px;
+    margin-left: 20px;
+    margin-bottom:150px;
+    padding: 20px;
+}
+
+.supra{
+    background-image: url('supra.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:20px;
+    width: 950px;
+    height: 500px;
+    border-radius: 80px;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 1);
+    transform: scale(1.0);
+    transition-duration: 300ms;
+
+}
+
+
+.supra figcaption{
+    background: none;
+    color: rgb(197, 99, 64);
+    width: 500px;
+    margin-left: 30px;
+    margin-bottom:150px;
+    padding: 20px;
+}
+
+.supra:hover{
+    transform: scale(1.1);
+    transition-delay: 20ms;
+
+}
+
+
+
+
+figcaption h4{
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+figcaption p{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
